@@ -1,0 +1,42 @@
+/* HEADER */
+.site-header {
+  padding: 22px 0;
+  background-color: var(--primary-bg-color);
+}
+
+.site-header__container {
+  display: flex;
+  align-items: center;
+}
+
+/* LOGO */
+.logo {
+  margin-right: 58px;
+
+  &__img {
+    max-width: 108px;
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* SITENAV */
+.sitenav {
+  margin-right: auto;
+
+  &__list {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 0 32px;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: var(--dim-gray);
+  }
+}
+
+/* HEADER LINK */
+.site-header__link {
+}

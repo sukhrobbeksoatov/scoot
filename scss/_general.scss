@@ -2,7 +2,14 @@
 :root {
   --primary-bg-color: #fff;
   --text-color: #000;
-  --accent-color: ;
+  --accent-color: #fcb72b;
+  --dark-gray: #495567;
+  --dim-gray: #939caa;
+  --light-gray: #e5ecf4;
+  --snow: #f2f5f9;
+  --light-yellow: #fff4df;
+
+  --secondary-font-family: "Space Mono", "Arial", sans-serif;
 }
 
 /* GLOBAL */
@@ -15,8 +22,6 @@ html {
 * {
   margin: 0;
   padding: 0;
-  list-style-type: none;
-  text-decoration: none;
 }
 
 *,
@@ -38,9 +43,10 @@ img {
 
 body {
   height: 100%;
-  font-family: "Arial", sans-serif;
-  font-size: 16px;
+  font-family: "Lexend Deca", "Arial", sans-serif;
+  font-size: 15px;
   line-height: 1.5;
+  font-weight: 400;
   color: var(--text-color);
   background-color: var(--primary-bg-color);
   display: flex;
@@ -91,10 +97,12 @@ body {
   flex-grow: 1;
 }
 
-/* RETINA BGS */
-// @media only screen and (-webkit-min-device-pixel-ratio: 2),
-// only screen and (min--moz-device-pixel-ratio: 2),
-// only screen and (-o-min-device-pixel-ratio: 2/1),
-// only screen and (min-device-pixel-ratio: 2),
-// only screen and (min-resolution: 192dpi),
-// only screen and (min-resolution: 2dppx) {}
+.button {
+  display: inline-block;
+  padding: 14px 39px;
+  color: var(--primary-bg-color);
+  background-color: var(--accent-color);
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+}

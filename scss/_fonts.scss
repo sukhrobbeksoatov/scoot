@@ -1,0 +1,18 @@
+/* FONTS */
+@font-face {
+  src: url("../fonts/space-mono-v12-latin-700.woff2") format("woff2"),
+    url("../fonts/space-mono-v12-latin-700.woff") format("woff");
+  font-display: swap;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  src: url("../fonts/lexend-deca-v17-latin-regular.woff2") format("woff2"),
+    url("../fonts/lexend-deca-v17-latin-regular.woff") format("woff");
+  font-display: swap;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+}

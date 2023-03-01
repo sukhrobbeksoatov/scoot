@@ -1,0 +1,9 @@
+@mixin for-text($text) {
+  @if $text == h2 {
+    font-family: var(--secondary-font-family);
+    font-size: 56px;
+    max-width: 500px;
+    letter-spacing: -2.5px;
+    line-height: 1.2;
+  }
+}
